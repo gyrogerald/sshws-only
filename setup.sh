@@ -1,4 +1,4 @@
-#!/bin/bash
+gyrogerald#!/bin/bash
 if [ "${EUID}" -ne 0 ]; then
 		echo "You need to run this script as root"
 		exit 1
@@ -29,17 +29,17 @@ exit 0
 fi
 mkdir /etc/xray
 mkdir -p /etc/xray
-wget https://raw.githubusercontent.com/senowahyu62/sshws-only/main/ssh/cf.sh && chmod +x cf.sh && ./cf.sh
+wget https://raw.githubusercontent.com/gyrogerald/sshws-only/main/ssh/cf.sh && chmod +x cf.sh && ./cf.sh
 #install v2ray
-wget https://raw.githubusercontent.com/senowahyu62/sshws-only/main/ssh/ins-xray.sh && chmod +x ins-xray.sh && screen -S xray ./ins-xray.sh
+wget https://raw.githubusercontent.com/gyrogerald/sshws-only/main/ssh/ins-xray.sh && chmod +x ins-xray.sh && screen -S xray ./ins-xray.sh
 #install ssh ovpn
-wget https://raw.githubusercontent.com/senowahyu62/sshws-only/main/ssh/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
+wget https://raw.githubusercontent.com/gyrogerald/sshws-only/main/ssh/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
 # Websocket
-wget https://raw.githubusercontent.com/senowahyu62/sshws-only/main/edu.sh && chmod +x edu.sh && ./edu.sh
+wget https://raw.githubusercontent.com/gyrogerald/sshws-only/main/edu.sh && chmod +x edu.sh && ./edu.sh
 # Ohp Server
-wget https://raw.githubusercontent.com/senowahyu62/sshws-only/main/ohp.sh && chmod +x ohp.sh && ./ohp.sh
+wget https://raw.githubusercontent.com/gyrogerald/sshws-only/main/ohp.sh && chmod +x ohp.sh && ./ohp.sh
 
-wget https://raw.githubusercontent.com/senowahyu62/scriptvps/main/backup/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+wget https://raw.githubusercontent.com/gyrogerald/scriptvps/main/backup/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 
 rm -f /ins-xray.sh
 rm -f /cf.sh

@@ -15,7 +15,7 @@ LIGHT='\033[0;37m'
 # Getting
 
 # Link Hosting Kalian
-akbarvpn="raw.githubusercontent.com/senowahyu62/scriptvps/main/websocket"
+akbarvpn="raw.githubusercontent.com/gyrogerald/scriptvps/main/websocket"
 
 # Getting Proxy Template
 wget -q -O /usr/local/bin/ws-nontls https://${akbarvpn}/websocket.py

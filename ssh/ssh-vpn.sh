@@ -14,16 +14,16 @@ LIGHT='\033[0;37m'
 MYIP=$(wget -qO- ipinfo.io/ip);
 # ==================================================
 # Link Hosting Kalian
-akbarvpn="raw.githubusercontent.com/senowahyu62/scriptvps/main/ssh"
+akbarvpn="raw.githubusercontent.com/gyrogerald/scriptvps/main/ssh"
 
 # Link Hosting Kalian Untuk Xray
-akbarvpnn="raw.githubusercontent.com/senowahyu62/scriptvps/main/xray"
+akbarvpnn="raw.githubusercontent.com/gyrogerald/scriptvps/main/xray"
 
 # Link Hosting Kalian Untuk Trojan Go
-akbarvpnnn="raw.githubusercontent.com/senowahyu62/scriptvps/main/trojango"
+akbarvpnnn="raw.githubusercontent.com/gyrogerald/scriptvps/main/trojango"
 
 # Link Hosting Kalian Untuk Stunnel5
-akbarvpnnnn="raw.githubusercontent.com/senowahyu62/scriptvps/main/stunnel5"
+akbarvpnnnn="raw.githubusercgyrogeraldgyrogerald/scriptvps/main/stunnel5"
 
 # initializing var
 export DEBIAN_FRONTEND=noninteractive
@@ -388,15 +388,15 @@ netfilter-persistent reload
 
 # download script
 cd /usr/bin
-wget -O addhost "https://raw.githubusercontent.com/senowahyu62/sshws-only/main/ssh/addhost.sh"
-wget -O certws "https://raw.githubusercontent.com/senowahyu62/sshws-only/main/ssh/cerws.sh"
-wget -O addssh "https://raw.githubusercontent.com/senowahyu62/sshws-only/main/ssh/addssh.sh"
+wget -O addhost "https://raw.githubusercontent.com/gyrogerald/sshws-only/main/ssh/addhost.sh"
+wget -O certws "https://raw.githubusercontent.com/gyrogerald/sshws-only/main/ssh/cerws.sh"
+wget -O addssh "https://raw.githubusercontent.com/gyrogerald/sshws-only/main/ssh/addssh.sh"
 wget -O trialssh "https://${akbarvpn}/trialssh.sh"
 wget -O delssh "https://${akbarvpn}/delssh.sh"
 wget -O member "https://${akbarvpn}/member.sh"
 wget -O delexp "https://${akbarvpn}/delexp.sh"
 wget -O cekssh "https://${akbarvpn}/cekssh.sh"
-wget -O restart "https://raw.githubusercontent.com/senowahyu62/sshws-only/main/ssh/restart.sh"
+wget -O restart "https://raw.githubusercontent.com/gyrogerald/sshws-only/main/ssh/restart.sh"
 wget -O info "https://${akbarvpn}/info.sh"
 wget -O ram "https://${akbarvpn}/ram.sh"
 wget -O renewssh "https://${akbarvpn}/renewssh.sh"
@@ -407,10 +407,10 @@ wget -O clearlog "https://${akbarvpn}/clearlog.sh"
 wget -O xp "https://${akbarvpn}/xp.sh"
 wget -O swapkvm "https://${akbarvpn}/swapkvm.sh"
 wget -O certv2ray "https://${akbarvpnn}/certv2ray.sh"
-wget -O portsshnontls "https://raw.githubusercontent.com/senowahyu62/scriptvps/main/websocket/portsshnontls.sh"
-wget -O portsshws "https://raw.githubusercontent.com/senowahyu62/scriptvps/main/websocket/portsshws.sh"
+wget -O portsshnontls "https://raw.githubusercontent.com/gyrogerald/scriptvps/main/websocket/portsshnontls.sh"
+wget -O portsshws "https://raw.githubusercontent.com/gyrogerald/scriptvps/main/websocket/portsshws.sh"
 
-wget -O menu "https://raw.githubusercontent.com/senowahyu62/sshws-only/main/ssh/menu.sh"
+wget -O menu "https://raw.githubusercontent.com/gyrogerald/sshws-only/main/ssh/menu.sh"
 
 chmod +x portsshnontls
 chmod +x portsshws
