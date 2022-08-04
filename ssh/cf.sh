@@ -16,7 +16,7 @@ apt install jq curl socat -y
 DOMAIN=drasia.online
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c6)
 SUB_DOMAIN=${sub}.drasia.online
-CF_ID=geraldy.olang@gmail.com
+CF_ID=gyro.elite@gmail.com
 CF_KEY=7e4beb2b60f992a15f4c65f11caa3faea0855
 set -euo pipefail
 IP=$(wget -qO- ipinfo.io/ip);
